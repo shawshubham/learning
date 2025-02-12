@@ -1,4 +1,12 @@
-package com.theshubhamco.learn.multithreading;
+package com.theshubhamco.learn.multithreading.creatingThread;
+
+class MyThread extends Thread{
+	@Override
+	public void run() {
+		System.out.println("Thread running: " + Thread.currentThread().getName());
+	}
+	
+}
 
 public class ThreadExample {
 
@@ -17,12 +25,4 @@ public class ThreadExample {
 		thread.start();
 	}
 
-}
-
-class MyThread extends Thread{
-	@Override
-	public void run() {
-		System.out.println("Thread running: " + Thread.currentThread().getName());
-	}
-	
 }
