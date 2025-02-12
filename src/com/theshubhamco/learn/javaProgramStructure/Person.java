@@ -1,5 +1,5 @@
 //Package declaration
-package com.java.learn.javaProgramStructure;
+package com.theshubhamco.learn.javaProgramStructure;
 
 //Import statements
 import java.util.Scanner;

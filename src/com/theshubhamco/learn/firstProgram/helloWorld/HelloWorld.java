@@ -1,4 +1,4 @@
-package com.java.learn.firstProgram.helloWorld;
+package com.theshubhamco.learn.firstProgram.helloWorld;
 
 public class HelloWorld { 
     public static void main(String[] args) { 
